@@ -1,0 +1,285 @@
+.body {
+	padding: 0;
+	margin: 0;
+}
+
+.container {
+	max-width: 1000px;
+	margin: 0 auto;
+}
+
+.container > header {
+	background: url(../ASM/banner2.jpg);
+	background-size: 100% 100%;
+	height: 0px;
+	padding-bottom: 25%;
+}
+
+.container > nav {
+	line-height: 40px;
+	background: gray;
+	color: white;
+	text-align: center;
+}
+
+.container > nav > a {
+	text-decoration: none;
+	color: white;
+	margin: 0 10px;
+}
+
+.container > nav > a:hover {
+	color: yellow;
+	text-decoration: underline;
+}
+
+.container > article {
+	min-height: 400px;
+	width: 75%;
+	background-color: white;
+	float: left;
+}
+
+.container > aside {
+	background-color: 
+	min-height: 190px;
+	width: 25%;
+	float: right;
+}
+
+.container > footer {
+	border-top: 5px double #FF4C00;
+	line-height: 50px;
+	background-color: lightcyan;
+	text-align: center;
+	clear: both;
+}
+
+iframe[name=page] {
+	width: 100px;
+	min-height: 400px;
+	
+}
+.vmenu{ 
+		padding: 10px;
+		margin: 10px;
+		list-style: none;
+		border-radius: 5px;
+		box-shadow: 1px 1px 5px ;
+		
+}
+.vmenu a{
+		background: url('../ASM/2.gif') no-repeat 10px center;
+		display: block;
+		color: black;
+		font-variant: small-caps;
+		font-size: larger;
+		
+		text-decoration: none;
+		padding: 8px 8px 11px 30px;
+		border-bottom: 1px dotted orangered;
+}
+.vmenu a:hover{
+				background: url('../ASM/shoe.png') no-repeat 10px center;
+				border-bottom: 1px dotted white;
+				background-color: blanchedalmond;
+				color: red;
+				font-weight: bold;
+}
+.menu>ul>li{
+			display: inline-block;
+			position: relative;
+} 
+.menu>ul>li>a{ 
+				display: block;
+}
+.menu>ul{
+		padding: 0px;
+		margin: 0px;
+		list-style: none;
+		border-radius: 3px
+		text-align: center;
+		background-color: black;
+		text-align: center;
+}
+ .menu>ul>li>a{
+	 			text-decoration: none;
+				font-variant: small-caps;
+				font-size: larger;
+				color: white;
+				padding: 0 10px;
+				line-height: 40px;
+
+}
+.menu>ul>li>a:hover{ 
+					color: yellow;
+					font-weight: bold;
+}
+.menu ul ul{ 
+			position: absolute;
+			display: none;
+}
+.menu ul ul a{ 
+				display: block;
+}
+.menu>ul>li:hover>ul{ 
+						display: block;
+}
+.menu ul ul{
+			padding: 0px;
+			margin: 0px;
+			list-style: none;
+			border-radius: 3px;
+			width: 320px;
+			background-color:white;
+			box-shadow:1px 1px 1px 1px gray;
+}
+ .menu ul ul a{
+	 			line-height: 30px;
+				color: orangered;
+				text-decoration: none;
+				font-variant: small-caps;
+				font-size: larger;
+				padding: 0 10px;
+}
+.menu ul ul a:hover{
+					background-color: black;
+         			color: white;
+}
+.container > header {
+	background-image: url('ASM/banner2.jpg');
+	background-size: 100% 100%;
+	height: 100%;
+	padding-bottom: 30%;	
+} 
+.column {
+        float: left;
+        width: 24%;
+        margin: 0px;
+        padding: 0px;
+    }
+
+    .column .Sanpham {
+        max-width: 200px;
+        padding: 10px;
+        margin: 10px;
+        border-radius: 4px;
+        box-shadow: 1px 1px 1px gray;
+		display: inline-block;
+  		webkit-transition-duration: 0.3s;
+  		transition-duration: 0.3s;
+  	webkit-transition-property: -webkit-transform;
+  transition-property: transform;
+  -webkit-transform: translateZ(0);
+  -ms-transform: translateZ(0);
+  transform: translateZ(0);
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+    }
+
+    .column .Gia {
+        color: brown;
+        font-weight: bold;
+        font-size: small;
+        text-align: center;
+    }
+
+    .column .Ten {
+        text-align: center;
+    }
+.Danh_muc{
+	
+	text-align:center;
+	background-color: black;
+	border-radius: 10px;
+	width: 150px;
+	height: 40px;
+	margin: 10px ;
+	padding: 5px;
+	font-weight: bold;
+	color: white;
+}
+.converse{
+	text-align: center;
+	background-color: black;
+	border-radius: 5px;
+	width: 1000px;
+	height: 25px;
+	
+	font-weight: bold;
+	color: white;
+}
+.vmenu{
+	margin: 10px;
+	
+}
+.Baomoi{
+	float:right;
+	text-align: center;
+	color: blue;
+	width: 200px;
+	border-radius: 10px;
+	
+	
+	
+}
+.quangcao1 {
+	text-align: left;
+	color: red;
+	font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", "serif";
+}
+.Danh_muc :hover{
+	text-align:center;
+	background-color: black;
+	border-radius: 4px;
+	
+	
+
+	font-weight: bold;
+	color: orangered;
+}
+.dangnhap{
+	float: left;
+}
+.Sanpham:hover{
+	
+	webkit-transform: scale(1.1);
+    ms-transform: scale(1.1);
+    transform: scale(1.1);
+}
+.converse:hover{
+	color: black;
+}
+.Sanpham a{
+	text-decoration: none;
+}
+.Sanpham a:hover{
+	font-weight: bolder;
+}
+.column .Sanpham:hover {
+        max-width: 200px;
+        padding: 10px;
+        margin: 10px;
+        border-radius: 4px;
+        box-shadow: 1px 1px 1px 1px black;
+}
+.pon1{
+	
+	border-radius: 2px;
+	height: auto;
+	text-align: center;
+	color:red;
+	float: left;
+	margin: 10px;
+
+	color: blue;
+}
+
+
+
+
+
+
+
+
+
+

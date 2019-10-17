@@ -1,0 +1,366 @@
+ body {
+	padding: 0;
+	margin: 0;
+}
+
+.container {
+	max-width: 1000px;
+	margin: 0 auto;
+}
+
+.container > header {
+	background: url(../ASM/banner2.jpg);
+	background-size: 100% 100%;
+	height: 0px;
+	padding-bottom: 25%;
+	color: aqua
+}
+
+.container > nav {
+	line-height: 40px;
+	background: orangered;
+	color: white;
+	text-align: center;
+}
+
+.container > nav > a {
+	text-decoration: none;
+	color: white;
+	margin: 0 10px;
+}
+
+.container > nav > a:hover {
+	color: yellow;
+	text-decoration: underline;
+}
+
+.container > article {
+	min-height: 400px;
+	width: 65%;
+	background-color: white;
+	float: left;
+}
+
+.container > aside {
+	background-color: white;
+	min-height: 400px;
+	width: 35%;
+	float: right;
+	 
+}
+
+.container > footer {
+	border-top: 5px double orangered;
+	line-height: 50px;
+	background-color: lightcyan;
+	text-align: center;
+	clear: both;
+}
+
+
+iframe[name=page] {
+	width: 100px;
+	min-height: 400px;
+	
+}
+.vmenu{ 
+		padding: 10px;
+		margin: 10px;
+		list-style: none;
+		border-radius: 5px;
+		box-shadow: 1px 1px 5px ;
+		font-size: small;
+		
+}
+.vmenu a{
+		background: url('../ASM/2.gif') no-repeat 10px center;
+		display: block;
+		color: black;
+		font-variant: small-caps;
+		font-size: larger;
+		
+		text-decoration: none;
+		padding: 8px 8px 11px 30px;
+		border-bottom: 1px dotted orangered;
+}
+.vmenu a:hover{
+				background: url('../ASM/shoe.png') no-repeat 10px center;
+				border-bottom: 1px dotted white;
+				background-color: blanchedalmond;
+				color: red;
+				font-weight: bold;
+}
+.menu>ul>li{
+			display: inline-block;
+			position: relative;
+} 
+.menu>ul>li>a{ 
+				display: block;
+}
+.menu>ul{
+		padding: 0px;
+		margin: 0px;
+		list-style: none;
+		border-radius: 3px
+		text-align: center;
+		background-color: orangered;
+		text-align: center;
+}
+ .menu>ul>li>a{
+	 			text-decoration: none;
+				font-variant: small-caps;
+				font-size: larger;
+				color: white;
+				padding: 0 10px;
+				line-height: 40px;
+
+}
+.menu>ul>li>a:hover{ 
+					color: yellow;
+					font-weight: bold;
+}
+.menu ul ul{ 
+			position: absolute;
+			display: none;
+}
+.menu ul ul a{ 
+				display: block;
+}
+.menu>ul>li:hover>ul{ 
+						display: block;
+}
+.menu ul ul{
+			padding: 0px;
+			margin: 0px;
+			list-style: none;
+			border-radius: 3px;
+			width: 320px;
+			background-color:white;
+			box-shadow:1px 1px 1px 1px gray;
+}
+ .menu ul ul a{
+	 			line-height: 30px;
+				color: red;
+				text-decoration: none;
+				font-variant: small-caps;
+				font-size: larger;
+				padding: 0 10px;
+}
+.menu ul ul a:hover{
+					background-color: black;
+         			color: white;
+}
+.container > header {
+	background-image: url('ASM/banner2.jpg');
+	background-size: 100% 100%;
+	height: 100%;
+	padding-bottom: 30%;	
+} 
+.column {
+        float: left;
+        width: 24%;
+        margin: 0px;
+        padding: 0px;
+    }
+
+    .column .Sanpham {
+        max-width: 200px;
+        padding: 10px;
+        margin: 10px;
+        border-radius: 4px;
+        box-shadow: 1px 1px 1px gray;
+    }
+
+    .column .Gia {
+        color: brown;
+        font-weight: bold;
+        font-size: small;
+        text-align: center;
+    }
+
+    .column .Ten {
+        text-align: center;
+    }
+.Danh_muc{
+	
+	text-align:center;
+	background-color: aqua;
+	border-radius: 10px;
+	width: 150px;
+	height: 40px;
+	margin: 10px ;
+	padding: 5px;
+	font-weight: bold;
+	color: blue;
+}
+.converse{
+	text-align: center;
+	background-color: orangered;
+	border-radius: 5px;
+	width: 1000px;
+	height: 25px;
+	
+	font-weight: bold;
+	color: white;
+}
+.vmenu{
+	margin: 10px;
+	
+}
+.Baomoi{
+	float:right;
+	text-align: center;
+	color: blue;
+	width: 200px;
+	border-radius: 10px;
+	
+	
+	
+}
+.quangcao1 {
+	text-align: left;
+	color: red;
+	font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", "serif";
+}
+.Danh_muc :hover{
+	text-align:center;
+	background-color: black;
+	border-radius: 4px;
+	
+	
+
+	font-weight: bold;
+	color: orangered;
+}
+.dangnhap{
+	float: left;
+}
+.column:hover{
+	opacity: 0.5;
+	
+}
+.column .Ten:hover{
+	color: red;
+}
+.converse:hover{
+	color: black;
+}
+.Price{
+	text-align:center;
+	background-color:antiquewhite;
+	border-radius: 10px;
+	width: 100%;
+	height: 30px;
+	margin: 10px ;
+	padding: 5px;
+	font-weight: 
+	color: black
+}
+.size{
+	border-radius: 4px;
+	box-shadow: 1px 1px 1px 1px gray;
+	text-align: center;
+	width: 150px;
+	color:chocolate;
+	float: left;
+	margin: 10px;
+	padding: 5px;
+	
+}
+
+.Mau{
+border-radius: 4px;
+	box-shadow: 1px 1px 1px 1px gray;
+	text-align: center;
+	width: 95px;
+	color:seagreen;
+	float: left;
+	margin: 10px;
+	padding: 5px;
+		
+}
+.size:hover{
+	border-radius: 4px;
+	box-shadow: 1px 1px 1px 1px red;
+	text-align: center;
+	width: 150px;
+	color:chocolate;
+	float: left;
+	margin: 10px;
+	padding: 5px;
+	background-color: antiquewhite;
+}
+.Mau:hover{
+	border-radius: 4px;
+	box-shadow: 1px 1px 1px 1px red;
+	text-align: center;
+	width: 100px;
+	color:chocolate;
+	float: left;
+	margin: 10px;
+	padding: 5px;
+	background-color:antiquewhite;
+}
+.Price:hover{
+	color: red;
+	font-weight: bold;
+	background-color: black;
+}
+.anhchitiet>img{
+	float: left;
+	transition: all 1s ease;
+	webkit-transition: all 1s ease;
+	moz-transition: all 1s ease;
+	o-transition: all 1s ease;
+
+}
+.anhchitiet>img:hover{
+	width: 25%;
+	transform: scale(1.5,1.5);
+	webkit-transform: scale(1.5,1.5);
+	moz-transform: scale(1.5,1.5);
+	o-transform: scale(1.5,1.5);
+	ms-transform: scale(1.5,1.5);
+}
+.giohang{
+	border-radius: 2px;
+	border-style: solid;
+	text-align: center;
+	width: 180px;
+	color:red;
+	float: left;
+	margin: 10px;
+	padding: 5px;
+	font-weight:
+}
+.muangay{
+	
+	border-radius: 2px;
+	height: auto;
+	text-align: center;
+	width: 130px;
+	color:red;
+	float: left;
+	margin: 10px;
+	padding: 5px;
+	background-color: red;
+	color: blue;
+}
+.muangay:hover{
+	background-color: black;
+	height: 10px;
+}
+.giohang:hover{
+	background-color: black;
+}
+.shoppe{
+	float: left;
+}
+
+
+
+
+
+
+
+
